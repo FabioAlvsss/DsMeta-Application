@@ -1,5 +1,5 @@
-import icon from '../../src/assets/img/IconNotification.svg'
-import '../componentes/notificationButton/styles.css'
+import icon from '../../assets/img/IconNotification.svg'
+import './styles.css'
 function NotificattionButton() {
     return(
         <div  className="dsmeta-button-container">

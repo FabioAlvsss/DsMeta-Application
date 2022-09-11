@@ -1,0 +1,104 @@
+.dsmeta-card{
+    background: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+    
+}
+
+
+
+.dsmeta-card h2{
+    color:  #676FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dsmeta-form-control-container{
+    margin-bottom:16px;
+    max-width: 300px;
+}
+
+.dsmeta-form-control{
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    width: 100%;
+    color:  #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.dsmeta-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-table thead{
+    color: #E9E9E9;
+    font-weight: 700;
+    font-size: 16px;
+    height: 55px;
+}
+
+.dsmeta-table tbody{
+    font-size: 14px;
+    font-weight: 400;
+    color:  #CFCFCF;
+    text-align: center;
+}
+
+.dsmeta-table tbody tr{
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+    }
+
+    .dsmeta-table tbody tr:hover >td{
+       background-color: #384459; 
+    }
+
+    .dsmeta-table tbody tr:nth-child(odd){
+       background-color:#242C3B;
+    }
+
+    
+    
+    .dsmeta-button-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ShowData{
+        display: none;
+    }
+
+    .ShowInformations{
+        display: none;
+    }
+
+    @media(min-width: 576px){
+        .ShowData{
+            display: table-cell;
+        }
+
+        .dsmeta-card{
+            padding:35px;
+        }
+
+        .dsmeta-table tbody tr{
+            height: 55px;
+        }
+
+        .dsmeta-table tbody{
+            font-size: 18px;
+        }
+
+    }
+
+    @media (min-width: 992px) {
+        .ShowInformations{
+            display: table-cell;
+        }
+        
+    }
